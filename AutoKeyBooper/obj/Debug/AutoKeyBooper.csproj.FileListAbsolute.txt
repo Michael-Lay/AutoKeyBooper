@@ -1,0 +1,7 @@
+C:\Users\Michael WB Lay\source\repos\AutoKeyBooper\AutoKeyBooper\obj\Debug\AutoKeyBooper.csproj.CoreCompileInputs.cache
+C:\Users\Michael WB Lay\source\repos\AutoKeyBooper\AutoKeyBooper\bin\Debug\AutoKeyBooper.exe.config
+C:\Users\Michael WB Lay\source\repos\AutoKeyBooper\AutoKeyBooper\bin\Debug\AutoKeyBooper.exe
+C:\Users\Michael WB Lay\source\repos\AutoKeyBooper\AutoKeyBooper\bin\Debug\AutoKeyBooper.pdb
+C:\Users\Michael WB Lay\source\repos\AutoKeyBooper\AutoKeyBooper\obj\Debug\AutoKeyBooper.exe
+C:\Users\Michael WB Lay\source\repos\AutoKeyBooper\AutoKeyBooper\obj\Debug\AutoKeyBooper.pdb
+C:\Users\Michael WB Lay\source\repos\AutoKeyBooper\AutoKeyBooper\obj\Debug\AutoKeyBooper.csprojResolveAssemblyReference.cache
