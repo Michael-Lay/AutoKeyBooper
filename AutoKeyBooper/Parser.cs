@@ -19,9 +19,8 @@ namespace AutoKeyBooper
                 returnValue = "File path \"" + filePath + "\" is invalid.";
             }            
             return returnValue;
-        }// Method Parse()
+        }
 
-        //Strip out comments
         public static string StripComments(string textWithComments) {
             string returnValue = "*Error stripping comments*";
             List<string> linesWithoutComments = new List<string>();
@@ -55,9 +54,96 @@ namespace AutoKeyBooper
 
         //Add a method here that takes each line in a procedure and presses the corresponding key.
         public static void PressKey(List<String> LineOfCode) {
-            
+            string keyStroke = "";
             foreach (String keyToPress in LineOfCode) {
-                System.Windows.Forms.SendKeys.Send("K"); 
+                keyStroke = keyToPress.ToUpper();
+                switch (keyStroke)
+                {
+                    // Press Arrows
+                    case "UP":
+                        System.Windows.Forms.SendKeys.Send("DOWN");
+                        break;
+                    // Press letters
+                    case "A":
+                        System.Windows.Forms.SendKeys.Send("A");
+                        break;
+                    case "B":
+                        System.Windows.Forms.SendKeys.Send("B");
+                        break;
+                    case "C":
+                        System.Windows.Forms.SendKeys.Send("C");
+                        break;
+                    case "D":
+                        System.Windows.Forms.SendKeys.Send("D");
+                        break;
+                    case "E":
+                        System.Windows.Forms.SendKeys.Send("E");
+                        break;
+                    case "F":
+                        System.Windows.Forms.SendKeys.Send("F");
+                        break;
+                    case "G":
+                        System.Windows.Forms.SendKeys.Send("G");
+                        break;
+                    case "H":
+                        System.Windows.Forms.SendKeys.Send("H");
+                        break;
+                    case "I":
+                        System.Windows.Forms.SendKeys.Send("I");
+                        break;
+                    case "J":
+                        System.Windows.Forms.SendKeys.Send("J");
+                        break;
+                    case "K":
+                        System.Windows.Forms.SendKeys.Send("K");
+                        break;
+                    case "L":
+                        System.Windows.Forms.SendKeys.Send("L");
+                        break;
+                    case "M":
+                        System.Windows.Forms.SendKeys.Send("M");
+                        break;
+                    case "N":
+                        System.Windows.Forms.SendKeys.Send("N");
+                        break;
+                    case "O":
+                        System.Windows.Forms.SendKeys.Send("O");
+                        break;
+                    case "P":
+                        System.Windows.Forms.SendKeys.Send("P");
+                        break;
+                    case "Q":
+                        System.Windows.Forms.SendKeys.Send("Q");
+                        break;
+                    case "R":
+                        System.Windows.Forms.SendKeys.Send("R");
+                        break;
+                    case "S":
+                        System.Windows.Forms.SendKeys.Send("S");
+                        break;
+                    case "T":
+                        System.Windows.Forms.SendKeys.Send("T");
+                        break;
+                    case "U":
+                        System.Windows.Forms.SendKeys.Send("U");
+                        break;
+                    case "V":
+                        System.Windows.Forms.SendKeys.Send("V");
+                        break;
+                    case "W":
+                        System.Windows.Forms.SendKeys.Send("W");
+                        break;
+                    case "X":
+                        System.Windows.Forms.SendKeys.Send("X");
+                        break;
+                    case "Y":
+                        System.Windows.Forms.SendKeys.Send("Y");
+                        break;
+                    case "Z":
+                        System.Windows.Forms.SendKeys.Send("Z");
+                        break;
+
+                }
             }      
         }
 
